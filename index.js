@@ -47,3 +47,8 @@ return morekit
 }
 
 var kittens = ["Milo", "Otis", "Garfield"];
+
+function removeFirstKitten () {
+  var mkits = kittens.slice(0);
+  return mkits
+}
