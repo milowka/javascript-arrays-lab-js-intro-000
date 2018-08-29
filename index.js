@@ -31,3 +31,10 @@ function appendKitten(name) {
 var appendKitten = kittens.concat(kit)
 return appendKitten
 }
+
+var kittens = ["Milo", "Otis", "Garfield"]
+
+function prependKitten (name) {
+  var kit = ["Arnold", ...kittens]
+  return kit
+}
