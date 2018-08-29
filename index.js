@@ -45,3 +45,10 @@ function removeLastKitten () {
 var kit = kittens.slice(2)
 return kit
 }
+
+var kittens  ["Milo", "Otis", "Garfield"];
+
+function removeFirstKitten() {
+  var kit = kittens.slice(0)
+  return kit
+}
