@@ -46,6 +46,4 @@ var kit = kittens.slice(2)
 return kit
 }
 
-var kittens  ["Milo", "Otis", "Garfield"];
-
-
+var kittens = ["Milo", "Otis", "Garfield"];
