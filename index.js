@@ -42,13 +42,13 @@ function prependKitten (name) {
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function removeLastKitten () {
-var removeLastKitten = kittens.slice(2);
+var removeLastKitten = kittens.slice(3);
 return removeLastKitten
 }
 
 var kittens = ["Milo", "Otis", "Garfield"];
 
 function removeFirstKitten () {
-  var mkits = kittens.slice(0);
+  var mkits = kittens.slice(1);
   return mkits
 }
